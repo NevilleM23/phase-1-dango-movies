@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const buyTicketButton = document.getElementById('buy-ticket');
 
 
-    fetch('http://localhost:3000/films')
+    fetch('https://json-server-ln4f.onrender.com/films')
         .then(resp=> resp.json()) 
         .then(movies => {
             
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
             const newTicketsSold = currentMovie.tickets_sold + 1;
 
-            fetch(`http://localhost:3000/films/${currentMovie.id}`, {
+            fetch(`https://json-server-ln4f.onrender.com/films${currentMovie.id}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json'
