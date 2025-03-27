@@ -1,4 +1,4 @@
-# Flatadango
+# Flatdango
 
 Flatdango movie ticket buyer by Neville 
 
@@ -24,12 +24,19 @@ Flatdango movie ticket buyer by Neville
 ## Guide On How To Use Application  
 
 - Fork and clone this repository in to your computer
+
 - Open the project-folder using VS code.
+
 - open / explorer index.html : This will open your default browser and display the contents of the index html.
+
 - Nothing will be displayed at the moment
-- Open a terminal and navigate to the project directory. ie.".../phase-1-week-3-project$"
+
+- Open a terminal and navigate to the project directory. ie.".../phase-1-django-movies
+
 - Run json-server --watch db.json in the terminal
+
 - Go back to the browser tab where the index.html loaded and refresh the page.
+
 - Website is not functional and fearures from above are now available
 
 
